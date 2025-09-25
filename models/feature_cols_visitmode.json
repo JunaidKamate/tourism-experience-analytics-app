@@ -1,0 +1,19 @@
+{
+  "feature_cols": [
+    "AttractionType_label_enc",
+    "user_Region_enc",
+    "user_Country_enc",
+    "user_CityName_enc",
+    "att_CityName_enc",
+    "VisitYear",
+    "VisitMonth",
+    "month_sin",
+    "month_cos",
+    "user_total_visits",
+    "user_avg_rating",
+    "user_unique_attractions",
+    "attraction_total_visits",
+    "attraction_avg_rating",
+    "attraction_unique_users"
+  ]
+}

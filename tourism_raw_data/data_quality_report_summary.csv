@@ -1,0 +1,10 @@
+table,rows,cols,total_null_cells,columns_with_nulls,duplicate_rows
+transaction,52930,7,0,0,0
+user,33530,5,4,1,0
+item,30,5,0,0,0
+city,9143,3,1,1,0
+country,165,3,0,0,0
+region,22,3,0,0,0
+continent,6,2,0,0,0
+type,17,2,0,0,0
+mode,6,2,0,0,0
