@@ -7,12 +7,15 @@ import pandas as pd, numpy as np
 # MUST be first Streamlit call
 st.set_page_config(layout='wide', page_title='Tourism Experience Analytics', page_icon=None)
 
-# ==== Absolute paths (Windows) ====
-BASE = Path(r"C:\Users\junai\tourism_raw_data")
-PROC = BASE / "processed"
+# ---------- Paths (use repository-relative paths for cloud) ----------
+from pathlib import Path
+BASE = Path.cwd()               # root of the repo when deployed
+PROC = BASE / "tourism_raw_data" / "processed"
 SPLITS = PROC / "splits"
-MODELS = Path(r"C:\Users\junai\models")
-RESULTS = Path(r"C:\Users\junai\results")
+MODELS = BASE / "models"
+RESULTS = BASE / "results"
+
+
 
 # Safe loader
 def safe_load(path):
