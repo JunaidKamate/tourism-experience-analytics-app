@@ -15,22 +15,6 @@ This project demonstrates **machine learning, recommendation systems, and data v
 
 ---
 
-## 📸 Screenshots  
-
-### 1. Predict Rating  
-![Predict Rating](docs/screenshots/predict_rating.png)  
-
-### 2. Predict Visit Mode  
-![Predict Visit Mode](docs/screenshots/predict_visitmode.png)  
-
-### 3. Top-5 Recommendations  
-![Recommendations](docs/screenshots/recommendations.png)  
-
-### 4. Quick EDA  
-![EDA](docs/screenshots/eda.png)  
-
----
-
 ## ⚙️ Tech Stack  
 
 - **Python** (pandas, numpy, scikit-learn, matplotlib)  
