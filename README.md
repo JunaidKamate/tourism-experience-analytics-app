@@ -50,5 +50,5 @@ This project demonstrates **machine learning, recommendation systems, and data v
 
 ---
 
-👨‍💻 Author
-Junaid Kamate
+## 👨‍💻 Author
+## Junaid Kamate
